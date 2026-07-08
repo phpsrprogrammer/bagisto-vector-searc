@@ -1,0 +1,18 @@
+{
+    "name": "rbk/vector-search",
+    "description": "Open-source semantic (vector) search, autosuggest, and related/up-sell fallback for Bagisto using Qdrant + fastembed (all self-hosted, no paid APIs).",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["bagisto", "vector-search", "semantic-search", "qdrant", "fastembed"],
+    "require": { "php": "^8.2" },
+    "autoload": {
+        "psr-4": { "Rbk\\VectorSearch\\": "src/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Rbk\\VectorSearch\\Providers\\VectorSearchServiceProvider"]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
