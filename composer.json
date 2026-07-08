@@ -1,5 +1,5 @@
 {
-    "name": "rbk/vector-search",
+    "name": "phpsrprogrammer/bagisto-vector-search",
     "description": "Open-source semantic (vector) search, autosuggest, and related/up-sell fallback for Bagisto using Qdrant + fastembed (all self-hosted, no paid APIs).",
     "license": "MIT",
     "type": "library",
